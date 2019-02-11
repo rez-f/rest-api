@@ -1,0 +1,30 @@
+[
+    {
+        "nama": "Reza",
+        "umur": 21,
+        "nim": "11651100402",
+        "lulus": false,
+        "hobby": [
+            "gaming",
+            "coding"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Pembimbing 1",
+            "pembimbing2": "Pembinbing 2"
+        }
+    },
+    {
+        "nama": "Asep",
+        "umur": 21,
+        "nim": "11651100402",
+        "lulus": false,
+        "hobby": [
+            "gaming",
+            "coding"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Pembimbing 1",
+            "pembimbing2": "Pembinbing 2"
+        }
+    }
+]
