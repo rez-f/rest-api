@@ -29,7 +29,7 @@ $config['force_https'] = FALSE;
 | 'xml':        Uses simplexml_load_string()
 |
 */
-$config['rest_default_format'] = 'json';
+$config['rest_default_format'] = 'array';
 
 /*
 |--------------------------------------------------------------------------
@@ -110,7 +110,7 @@ $config['rest_realm'] = 'REST API';
 |           authorization key
 |
 */
-$config['rest_auth'] = 'basic';
+$config['rest_auth'] = 'FALSE';
 
 /*
 |--------------------------------------------------------------------------
@@ -138,8 +138,8 @@ $config['auth_source'] = '';
 | requests etc), set to TRUE;
 |
 */
-$config['allow_auth_and_keys'] = TRUE;
-$config['strict_api_and_auth'] = TRUE; // force the use of both api and auth before a valid api request is made
+$config['allow_auth_and_keys'] = FALSE;
+$config['strict_api_and_auth'] = FALSE; // force the use of both api and auth before a valid api request is made
 
 /*
 |--------------------------------------------------------------------------
@@ -325,7 +325,7 @@ $config['rest_keys_table'] = 'keys';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_keys'] = TRUE;
+$config['rest_enable_keys'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
@@ -378,7 +378,7 @@ $config['rest_key_length'] = 40;
 | 2012/06/12. See RFC 6648 specification for more details
 |
 */
-$config['rest_key_name'] = 'wpu-key';
+$config['rest_key_name'] = 'api-key';
 
 /*
 |--------------------------------------------------------------------------
